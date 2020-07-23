@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <title> admissionForm </title>
+            <style type="text/css">
+                body{
+                    background-color: rgb(245, 238, 238);
+                }
+                .section img{
+                    position: absolute;
+                    top: 5%;
+                    left: 5%;
+                    height: 250px;
+                    width: 200px;
+                }
+                .section h1{
+                    position: relative;
+                    top: 0;
+                    left: 40%;
+                }
+                .dd{
+                    
+                    position: absolute;
+                    top: 20%;
+                    left: 40%;
+                    border: solid gray;
+                    border-width: 3px;
+                    max-width: 40%;
+                    text-align: center;
+                    
+                }
+
+                .photo{
+                    
+                    position: absolute;
+                    top: 5%;
+                    left: 75%;
+                    border: solid gray;
+                    border-width: 3px;
+                    max-width: 60%;
+                    height: 200px;
+                    text-align: center;   
+                }
+
+                .s{
+                    position: absolute;
+                    left: 5%;
+                    top: 50%;
+                }
+
+                .forms{
+                    position: absolute;
+                    left: 5%;
+                    top: 65%;
+                }
+
+                .sign{
+                    
+                    position: relative;
+                    bottom: 0%;
+                    left: 5%;
+                    border: solid gray;
+                    border-width: 3px;
+                    max-width: 30%;
+                    height: 100px;
+                    text-align: center;  
+                }
+                h5{
+                    position: relative;
+                    bottom: 0;
+                    left: 15%;
+                }
+                h3{
+                    background-color: rgb(187, 182, 182);
+                    color: royalblue;
+                }
+               
+            </style>
+        </head>
+
+        <body>
+            <header>
+
+                <div class="section">
+                    <picture>
+                        <source media="(max-width:900px)" srcset="https://www.coursesuggest.com/wp-content/uploads/2020/03/1200x1200logo-1.png">
+                        <img src="https://www.itvedant.com/wp-content/uploads/2019/02/itvedant-logo-black-text-transparent1-resize.png" alt="itvedantLogo">
+                    </picture>
+                    
+                    
+
+                    <h1 style="color: red;text-decoration: underline;">Registration Form</h1>
+
+
+                    <div class="dd">
+                        <form>
+                            <table>
+                                <tr>
+                                    <td><label for="date">Date:</label></td>
+                                    <td><input type="date" id="date" name="date"></td>
+                                </tr>
+
+                                <tr>
+                                    <td><label for="sid">Student id:</label></td>
+                                    <td><input type="text" id="sid" name="sid"></td>
+                                </tr>
+
+                                <tr>
+                                    <td><label for="bcode">Branch code:</label></td>
+                                    <td><input type="text" id="bcode" name="bcode"></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+
+                    <div class="photo">
+                        <br>
+                        &nbsp;&nbsp;&nbsp;<h2>candidate photo</h2>  <h4>35 x 40 mm</h4>
+                    </div>
+
+                    </div>
+
+            </header>
+
+            <main>
+                <div class="s">
+              <h2 style="color: royalblue;">JOB GURANTEE COURSE IN</h2>
+                <hr>
+            </div>
+
+            <div class="forms">
+                <fieldset>
+                    <legend><h2>Personal Details</h2></legend>
+
+
+                    <form>
+                        <table>
+                            <tr>
+                                <td><label for="n">Name</label></td>
+                                <td><input type="text" id="n" name="sname"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="dob">Date:</label></td>
+                                <td><input type="date" id="dob" name="dob"></td>
+                            </tr> 
+                            
+                            <tr>
+                                <td><label for="g">Gender:</label></td>
+                                <td colspan="3"><input type="radio" id="g" name="gen">Male
+                                <input type="radio" id="g" name="gen">Female 
+                               
+                                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<label for="ms">Matarial status:</label>
+                                <input type="checkbox" id="ms" name="status">Single
+                               <input type="checkbox" id="ms" name="status">Married</td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="e">Email:</label></td>
+                                <td><input type="email" id="e" name="email"></td>
+                                
+                            </tr>
+
+                           <tr>
+                               <td colspan="3"><span style="color: red;">i have confirm having email address and understand all email alerts and notification related to job and batches will be sent on above email address</td>
+                           </tr> 
+                           
+
+                           <tr>
+                            <td><label for="pn">Phone:</label></td>
+                            <td><input type="number" id="pn" name="pno"></td>
+                            
+                        </tr>
+
+                       <tr>
+                           <td colspan="3"><span style="color: red;">i have confirm having email address and understand all email alerts and notification related to job and batches will be sent on above email address</td>
+                       </tr> 
+
+                        </table>
+                    </form>
+                </fieldset><br><br>
+
+                <fieldset>
+                    <legend><h2>PERMANAT ADDRESS</h2></legend>
+                    <form>
+                        <table>
+
+
+                            <tr>
+                                <td><lable for="hn">House No:</lable></td>
+                                <td><input type="text" id="hn" name="houseno">
+                                 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<label>Building Level / Floor</label>
+                                <input type="text" id="blf" name="bno"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="pnam">Premises Name:</label></td>
+                                <td><input type="text"id="pnam" name="premises name"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="locality">Locality:</label></td>
+                                <td><input type="text" id="locality" name="lname"> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                                <label for="lm">landmark</label>
+                                <input type="text" id="lm" name="landmark">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><lable for="sn">Street Name:</lable></td>
+                                <td><input type="text" id="sn" name="streetname"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="city">City:</label></td>
+                                <td><input type="text" id="city" name="city"> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                                <label for="zc">Zip Code:</label>
+                                <input type="text" id="zc" name="Zip code">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="tel">Tel:</label></td>
+                                <td><input type="text" id="tel" name="tel"> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                                <label for="fhn"> Father / Husband Name:</label>
+                                <input type="text" id="fhn" name="fhn">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </fieldset><br><br>
+
+                <fieldset>
+                    <legend><h2>EDUCATION DETAILS</h2></legend>
+                    <table>
+                        <form>
+                            <strong> <h3>1. Graduation Degree</h3></strong>
+                            <tr>
+                            <td><input type="checkbox" id="be" name="be">&nbsp;<label for="be">BE</label>&nbsp;&nbsp;
+                                <input type="checkbox" id="bca" name="bca">&nbsp;<label for="bca">BCA</label>&nbsp;&nbsp;
+                                <input type="checkbox" id="mca" name="mca">&nbsp;<label for="mca">MCA</label>&nbsp;&nbsp;
+                                <input type="checkbox" id="BSC(I.T/comp)" name="BSC">&nbsp;<label for="BSC(I.T/comp)">BSC(I.T/comp)</label>&nbsp;&nbsp;
+                                <input type="checkbox" id="MSC(I.T/comp)" name="MSC">&nbsp;<label for="MSC(I.T/comp)">MSC(I.T/comp)</label>&nbsp;&nbsp;
+                                <input type="checkbox" id="MBA" name="MBA">&nbsp;<label for="MBA">MBA in</label>&nbsp;&nbsp;
+                                <input type="checkbox" id="BA" name="ba">&nbsp;<label for="BA">BA</label>&nbsp;&nbsp;
+                            </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="MBA" name="MBA">&nbsp;<label for="MBA">MBA in</label>
+                                <select>
+                                    <option>select options</option>
+                                    <option>MARKETING</option>
+                                    <option>ACOOUNTING AND FINANCE</option>
+                                    <option>I.T</option>
+                                </select>&nbsp;&nbsp;
+                                
+                                    <input type="checkbox" id="MA" name="MA">&nbsp;<label for="MA">MA</label>&nbsp;&nbsp;
+                                    <input type="checkbox" id="bco" name="bco">&nbsp;<label for="bco">B.COM</label>&nbsp;&nbsp;
+                                    <input type="checkbox" id="bscp" name="bscp">&nbsp;<label for="bscp">BSC(PLAIN)</label>&nbsp;&nbsp;
+                                   
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td> <label for="other">other(pls specify):</label>
+                                <input type="text" id="other" name="other">&nbsp;
+                                </td>
+                             </tr>
+                          
+
+
+                            <tr>
+                                <td><strong><h3>2. Mark obtained</h3></strong><hr></td></tr>
+                            <tr>
+                                <td><label for="cs">currently studying sem</label>&nbsp;&nbsp;
+                                <input type="text" id="cs" name="cs"></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="ten">10<sup>th</sup>:</label>&nbsp;
+                                    <input type="text" id="ten" name="ten">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label for="year1">Year:</label>&nbsp;
+                                    <input type="month" id="year1" name="year1">&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                    <label for="tw">12<sup>th</sup>:</label>&nbsp;
+                                    <input type="text" id="tw" name="tw">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label for="year2">Year:</label>&nbsp;
+                                    <input type="month" id="year2" name="year2">&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="garduation">Graduation:</label>&nbsp;
+                                    <input type="text" id="garduation" name="garduation">&nbsp;&nbsp;
+                                    <label for="year3">Year:</label>&nbsp;
+                                    <input type="month" id="year3" name="year3">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    
+                                    <label for="pg">Post Graduation:</label>&nbsp;
+                                    <input type="text" id="pg" name="pg">&nbsp;&nbsp;
+                                    <label for="year4">Year:</label>&nbsp;
+                                    <input type="month" id="year4" name="year4">&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                            </tr>
+                            <hr>
+                            <tr>
+                                <td><strong><h3>3.Technologies Known</h3></strong><hr> </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="html" name="html">&nbsp;<label for="html">HTML</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="css" name="css">&nbsp;<label for="bca">css</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="javas" name="javas">&nbsp;<label for="javas">MCA</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="jq" name="jq">&nbsp;<label for="jq">JQuery</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="wp" name="wp">&nbsp;<label for="wp">Wordpress</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="asp" name="asp">&nbsp;<label for="asp">ASP.NET</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="yf" name="yf">&nbsp;<label for="yf">yi12 Framework</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                            </tr>
+                            <tr></tr>
+                            <tr></tr>
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="python" name="python">&nbsp;<label for="python">Python</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="r" name="r">&nbsp;<label for="r">R language</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="sas" name="sas">&nbsp;<label for="sas">SAS</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="java" name="java">&nbsp;<label for="java">JAVA</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="spring" name="spring">&nbsp;<label for="spring">SPRING</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="node" name="node">&nbsp;<label for="node">Node Js</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                            </tr>
+
+                            <tr></tr>
+                            <tr> </tr>
+
+
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="C" name="C">&nbsp;<label for="C">C C++</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="cc" name="cc">&nbsp;<label for="cc">C.Net</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="mongo" name="mongo">&nbsp;<label for="mongo">mongo DB</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="data" name="data">&nbsp;<label for="data">Database</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="Hibernate" name="Hibernate">&nbsp;<label for="Hibernate">Hibernate</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" id="Android" name="Android">&nbsp;<label for="Android">Android</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="ao">Any Other:</label>
+                                <input type="text" name="ao" id="ao"></td>
+                            </tr>  
+                        
+
+                            <tr>
+                                <td><strong><h3>4. Terms and Conditions</h3></strong><hr></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    1.Attendace shoulde 90% .If lecture misse then there can be covered by informing the center coordinator and attending another batches
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    2.assignment completion should be 100% and on time.It is duty of candidate to scan the attendance qrcode and resolve doubts,queries on time
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>3.candidate should be prpare all the interview questions and answers given by itvedant and has to be present on job gureentee workshops</td>
+                            </tr>
+
+                            <tr>
+                                <td><strong><h3>5. Agreement &nbsp;(only For 100% job gurentee student only)</h3> </strong><hr></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    I Mr./Mrs <input type="text" name="stname"> parent/gudian/relative self agree to the terms and condition of job gurentee<br>
+                                    course and hereby declare that information filled in is correct and true to the best of my knowledge .<br>
+                                    I also state that the job gurentee stands void if my fails to adhere the ter<br><br>
+                                    <div class="sign" aria-placeholder="signature"></div> <br> <h5>Signature
+                                    </h5> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="right">I am Mr./Mr <input type="text" name="stname2">&nbsp;promise that we refund 100% fees<br> &nbsp;&nbsp;&nbsp;
+                                    (excluding taxes) in the case that candidates dose not get a job within 6 month post completionof the course
+
+                                </td>
+                            </tr>
+                            <tr></tr>
+                            <tr></tr><tr></tr>
+                            <tr>
+                                <td colspan="2" align="center"><h5>Official signature with stamp</h5> </td>
+                            </tr>
+                        </form>
+                    </table>
+                </fieldset>
+
+            </div>
+
+
+            </main>
+            
+        </body>
+    </html>
